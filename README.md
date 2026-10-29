@@ -92,8 +92,3 @@ Open the local URL printed by Vite, usually `http://localhost:5173`.
 | PATCH | `/tasks/{task_id}/complete` | Toggle completion |
 | DELETE | `/tasks/{task_id}` | Delete task |
 
-## Notes
-- This project is intended for local development and a single user. It does not include authentication.
-- Do not deploy it as a public multi-user service without adding authentication and authorization.
-- `.env` is excluded from Git; never commit real database credentials.
-- For a later improvement, use Alembic for database migrations instead of relying on `Base.metadata.create_all()`.
